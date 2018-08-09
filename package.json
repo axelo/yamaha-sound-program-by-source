@@ -1,0 +1,9 @@
+{
+  "name": "yamaha-sound-program-by-source",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "axelo",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}
