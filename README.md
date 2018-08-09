@@ -30,3 +30,5 @@ Currently the following mappings from source to sound program are hard coded
 http://habitech.s3.amazonaws.com/PDFs/YAM/MusicCast/Yamaha%20MusicCast%20HTTP%20simplified%20API%20for%20ControlSystems.pdf
 
 https://www.pdf-archive.com/2017/04/21/yxc-api-spec-advanced/yxc-api-spec-advanced.pdf
+
+https://github.com/samvdb/php-musiccast-api
