@@ -131,6 +131,10 @@ server.on('listening', () => {
   );
 
   sendEventServerAddress(port);
+
+  // After 10 minutes the receiver will drop this server to be notified unless we
+  // say hi again, so to be on the safe side, ask again every 5 minutes.
+  setInterval(() => sendEventServerAddress(port), 5 * 60 * 1000);
 });
 
 server.bind(INCOMING_EVENT_SERVER_PORT, LOCAL_IP);
